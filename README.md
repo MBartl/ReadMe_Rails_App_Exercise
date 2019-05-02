@@ -21,7 +21,6 @@ Create the whole thing from scratch!
    **BONUS**: Include a link to sort the players on the show page by endorsements
 
 Players:
-	Most of the CRUD will go under Players index page\
 1. Sort players on the index page based on their number of social media followers\
    -List each player and display the number of followers under each name\
    -Each player’s name should link to their show page\
