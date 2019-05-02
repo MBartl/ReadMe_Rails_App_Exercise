@@ -9,7 +9,7 @@ Create the whole thing from scratch!
 ## Deliverables:
 
 ### Sport:
-1. Users should be able to navigate to an index page of all sports\
+1. Users should be able to navigate to an index page of each sport\
    -Each sport should list the number of players in the database for that sport\
    -The total of all players endorsements should also be listed under the sport\
    **BONUS**: Do literally anything with the ‘first_played’ info\
