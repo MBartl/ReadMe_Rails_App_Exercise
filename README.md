@@ -10,8 +10,8 @@ Create the whole thing from scratch!
 
 ### Sport:
 1. Users should be able to navigate to an index page of all sports\
-   Each sport should list the number of players in the database for that sport\
-   The total of all players endorsements should also be listed under the sport\
+   -Each sport should list the number of players in the database for that sport\
+   -The total of all players endorsements should also be listed under the sport\
    **BONUS**: Do literally anything with the ‘first_played’ info\
    **BONUS**: Allow users to compare sports by endorsements
 
@@ -28,7 +28,7 @@ Create the whole thing from scratch!
    **SUPER BONUS**: include a player search feature!
 
 2. Players require a name, age between 10-100 and sport\
-   -endorsements and followers should default to 0\
+   -Endorsements and followers should default to 0\
    **BONUS**: require that the name consist of only alphabetical characters (no numbers, emojis, etc.)
 
 3. The user should be able to update or delete the player on the show page\
