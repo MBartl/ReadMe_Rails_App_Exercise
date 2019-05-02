@@ -13,12 +13,12 @@ Create the whole thing from scratch!
    Each sport should list the number of players in the database for that sport\
    The total of all players endorsements should also be listed under the sport\
    **BONUS**: Do literally anything with the ‘first_played’ info\
-   **BONUS**: Allow users to compare sports by endorsements\
+   **BONUS**: Allow users to compare sports by endorsements
 
 2. Sport show pages should list all the players with links to each player’s show page\
    -Show pages should also include the average age of all players in the database for that sport\
    -Show pages should include a link to go back to the index page\
-   **BONUS**: Include a link to sort the players on the show page by endorsements\
+   **BONUS**: Include a link to sort the players on the show page by endorsements
 
 Players:
 	Most of the CRUD will go under Players index page\
@@ -26,21 +26,21 @@ Players:
    -List each player and display the number of followers under each name\
    -Each player’s name should link to their show page\
    -Users should be able to create players from the index page\
-   **SUPER BONUS**: include a player search feature!\
+   **SUPER BONUS**: include a player search feature!
 
 2. Players require a name, age between 10-100 and sport\
    -endorsements and followers should default to 0\
-   **BONUS**: require that the name consist of only alphabetical characters (no numbers, emojis, etc.)\
+   **BONUS**: require that the name consist of only alphabetical characters (no numbers, emojis, etc.)
 
 3. The user should be able to update or delete the player on the show page\
    -The show page should include all of the info for that player\
    -Player’s show pages should link to the show page of their sport\
    -Player’s show pages should also include a link to go back to the index page\
    **BONUS**: include a confirmation after the user clicks the delete button\
-   **SUPER BONUS**: Scrape a Google picture for the player show page\
+   **SUPER BONUS**: Scrape a Google picture for the player show page
 
 
-Here’s some seed data to get you started:\
+Here’s some seed data to get you started:
 ```
 basketball = Sport.new(name: “Basketball”, first_played: 1891)
 
