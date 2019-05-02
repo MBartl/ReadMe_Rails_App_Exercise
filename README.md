@@ -5,8 +5,8 @@ ESPN has hired you to create a tracker for 4 popular sports: Football (Soccer), 
 ## Instructions
 Create the whole thing from scratch!
 
-Deliverables
 
+## Deliverables:
 
 ### Sport:
 1. Users should be able to navigate to an index page of all sports 
