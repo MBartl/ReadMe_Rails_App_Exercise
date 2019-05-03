@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.1'
 
+gem 'nokogiri'
+gem 'sass', '~> 3.2.14'
+gem 'compass', '~> 0.12.3'
 gem 'activerecord-reset-pk-sequence'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'

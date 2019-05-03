@@ -1,0 +1,23 @@
+<h1>Sports App</h1>
+<br>
+
+<% if params[:error] %>
+  <h4 class='error'><%= params[:error] %></h4>
+<% end %>
+
+<ul>
+  <% @sports.each do |sport| %>
+  <li>
+    <h3><%= link_to sport.name, sport %></h3>
+    First Played in <%= sport.first_played %><br>
+    Players in database: <%= sport.players.count %><br>
+    Total endorsements of players: $<%= sport.players.map(&:endorsements).sum.to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse %>
+  </li>
+  <% end %>
+</ul>
+
+<%= form_tag(sports_path method: :get) do %> 
+  <p>Search for a Player</p>
+  <%= text_field_tag :search, params[:search] %> 
+  <%= submit_tag 'Search' %> 
+<% end %>

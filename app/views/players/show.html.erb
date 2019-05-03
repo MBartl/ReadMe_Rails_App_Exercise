@@ -1,0 +1,5 @@
+<h1><%= @player.name %></h1>
+<h2><%= @player.sport.name %></h2>
+
+
+<%= link_to "See All #{@player.sport.name} Players", sport_path(@player.sport) %>

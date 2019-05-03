@@ -1,0 +1,15 @@
+<h1><%= @sport.name %></h1>
+<h3>Average Age: <%= @sport.players.map(&:age).sum / @sport.players.count %></h3>
+<br>
+
+<ul>
+  <% @sport.players.each do |player| %>
+  <li>
+    <h3><%= link_to player.name, player %></h3>
+  </li>
+  <br>
+  <% end %>
+</ul>
+
+<h4>Total followers: <%= @sport.players.map(&:followers).sum.to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse %></h4>
+<h4><%= link_to "Back to All Sports", sports_path %></h4>
